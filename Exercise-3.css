@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background-color: #050505;
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    z-index: 20;
+}
+
+.logo-bj-header img {
+    height: 70px;
+    margin: 10px 0 0 50px !important;
+}
+.grid {
+    display: grid;
+    position: relative;
+    margin: auto;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+ul.menu-header{
+    margin: 20px 0 0 50px;
+    padding: 15px;
+    font-size: 13px;
+  }
+  
+  ul.menu-header li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+  }
+  
+  ul.menu-header li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    position: relative; 
+  }
+
+  /* End Header */
